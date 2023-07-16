@@ -14,45 +14,27 @@
 
 <body>
     <header>
-        <nav class="nav d-flex align-items-center">
-            <svg role="img" aria-labelledby="logo" class="main-nav__logo__image" xmlns="http://www.w3.org/2000/svg"
+        <nav class="nav d-flex align-items-center pt-3 pb-3 ps-4 pe-4 nav-style">
+            <svg role="img" aria-labelledby="logo" class="main-nav__logo__image " xmlns="http://www.w3.org/2000/svg"
                 width="45" height="21" viewBox="0 0 45 21">
                 <title id="logo">Ableton Homepage</title>
                 <path
                     d="M0 0h3v21H0zM6 0h3v21H6zM12 0h3v21h-3zM18 0h3v21h-3zM24 18h21v3H24zM24 12h21v3H24zM24 6h21v3H24zM24 0h21v3H24z">
                 </path>
             </svg>
-            <li class="nav-item">
-                <a class="nav-link " aria-current="page" href="#">Live</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Push</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Note</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link " href="#">Link</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link " href="#">Shop</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link " href="#">Packs</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link " href="#">Help</a>
-            </li>
-            <li class="nav-item d-flex align-items-center">
-                <a class="nav-link " href="#">More</a>
-                <i class="bi bi-plus-lg icon-header"></i>
-            </li>
-            <li class="nav-item ms-auto">
-                <a class="nav-link active" href="#">Try Live For Free</a>
-            </li>
-            <li class="nav-item d-flex justify-content-end">
-                <a class="nav-link " href="#">Log in or Register</a>
-            </li>
+            <a class="nav-link nav-font nav-font-first ms-1" aria-current="page" href="#">Live</a>
+            <a class="nav-link nav-font nav-font-first ms-1" href="#">Push</a>
+            <a class="nav-link nav-font nav-font-first ms-1" href="#">Note</a>
+            <a class="nav-link nav-font nav-font-first ms-1" href="#">List </a>
+            <a class="nav-link nav-font nav-font-first ms-1" href="#">Shop</a>
+            <a class="nav-link nav-font nav-font-first ms-1" href="#">Packs</a>
+            <a class="nav-link nav-font nav-font-first ms-1" href="#">Help</a>
+            <div class="d-flex align-items-center nav-link">
+                <a class=" nav-font nav-font-first nav-plus" href="#">More</a>
+                <i class="bi bi-plus-lg icon-header nav-plus ps-1"></i>
+            </div>
+            <a class="nav-link active ms-auto nav-font nav-font-first" href="#">Try Live For Free</a>
+            <a class="nav-link d-flex justify-content-end nav-font nav-font-first" href="#">Log in or Register</a>
             <li class="nav-item dropdown dropdown-menu-display">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                     aria-expanded="false">
@@ -66,16 +48,16 @@
             </li>
 
         </nav>
-        <nav>
-            <ul class="nav">
+        <nav class="pt-3 pb-3 ps-4 pe-4">
+            <ul class="nav me-auto">
                 <li class="nav-item">
-                    <a class="nav-link " aria-current="page" href="#">About</a>
+                    <a class="nav-link nav-font-second nav-font nav-plus ps-0" aria-current="page" href="#">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Jobs</a>
+                    <a class="nav-link nav-font-second nav-font" href="#">Jobs</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Apprenticeship</a>
+                    <a class="nav-link nav-font-second nav-font" href="#">Apprenticeship</a>
                 </li>
             </ul>
         </nav>
@@ -83,8 +65,9 @@
     <main>
         <section>
             <div>
-                <div>
+                
                     <img src="./Assets/header.avif" alt="person in music studio">
+                    <div class="container-sm">
                     <h1>Ableton</h1>
                     <h5>We make <a href="#">Live</a>, <a href="#">Push</a> and <a href="#">Link</a> — unique software
                         and hardware for music creation and performance. With these products, our community of users
@@ -92,18 +75,21 @@
                     <p>Ableton was founded in 1999 and released the first version of Live in 2001. Our products are used
                         by a community of dedicated musicians, sound designers, and artists from across the world.</p>
                 </div>
-                <div>
+                <div >
                     <img class="img" src="./Assets/photo-1.jpg" alt="person looking at music board">
                     <img class="img" src="./Assets/photo-2.jpg" alt="blurry affect photo">
                 </div>
-                <div>
+                <div class="container-sm">
 
                     <h5>Making music isn’t easy. It takes time, effort, and learning. But when you’re in the flow, it’s
                         incredibly rewarding.</h5>
                     <p>We feel the same way about making Ableton products. The driving force behind Ableton is our
                         passion for what we make, and the people we make it for.</p>
+                    </div>
+                    <div>
                     <img class="img" src="./Assets/poster-juanpe.avif" alt="man smiling">
                     <figcaption>Why Ableton - Juanpe Bolivar</figcaption>
+                    <div class="container-sm">
                     <h5>We are more than 350 people from 30 different countries divided between our headquarters in
                         Berlin and our offices in Los Angeles and Tokyo.</h5>
                     <p>Most of us are active musicians, producers, and DJs, and many of us use Live and Push every day.
@@ -111,20 +97,24 @@
                         are self-taught, and most of us are somewhere in between. What connects us is the shared belief
                         that each of us has the skills and knowledge to contribute to something big: helping to shape
                         the future of music culture.</p>
+                    </div>
                 </div>
                 <div>
                     <img class="img" src="./Assets/photo-3.jpg" alt="person writing on board">
                     <img class="img" src="./Assets/photo-4.jpg" alt="abelton word">
                     <img class="img" src="./Assets/photo-5.jpg" alt="people in a music room">
                 </div>
-                <div>
+                <div class="container-sm">
                     <h5>We believe it takes focus to create truly outstanding instruments. We only work on a few
                         products and we strive to make them great.</h5>
                     <p>Rather than having a one-size-fits-all process, we try to give our people what they need to work
                         their magic and grow. We’ve learned that achieving the best results comes from building teams
                         that are richly diverse, and thus able to explore problems from a wider set of perspectives. We
                         don’t always agree with each other, but opinion and debate are valued and openly encouraged.</p>
-                    <img class="img" src="./Assets/poster-meet-the-makers.avif" alt="person working on code">
+                    </div>
+                    <div>
+                    <img class="img" src="./Assets/poster-meet-the-makers.avif" alt="person working on code"> </div>
+                    <div class="container-sm">
                     <h5>We’re passionate about what we do, but we’re equally passionate about improving who we are.</h5>
                     <p>We work hard to foster an environment where people can grow both personally and professionally,
                         and we strive to create a wealth of opportunities to learn from and with each other.</p>
@@ -137,7 +127,7 @@
                     <img class="img" src="./Assets/photo-6-a.jpg" alt="people looking at screen">
                     <img class="img" src="./Assets/photo-7.jpg" alt="people looking at projector">
                 </div>
-                <div>
+                <div class="container-sm">
                     <h5>We want our employees to love it here. Since we’re looking for exceptional talent from around
                         the world, we will do everything we can to make your transition as easy as possible.</h5>
                     <p>If you're joining us in Berlin, we'll help with relocation and paperwork. We’ll even provide you
@@ -145,13 +135,15 @@
                         health insurance for you and your family, as well as generous maternity and paternity leave.
                         Office hours are flexible, but it’s not all work; we have several company and team outings
                         throughout the year as well as a variety of fun, informal small-group activities.</p>
+                    </div>
                 </div>
                 <div>
                     <img class="img" src="./Assets/photo-8.jpg" alt="people in a room">
-                    <div>
+                    <div class="container-sm">
                         <h5>We’re really proud of the work we’ve done so far. But there’s so much more to come. If you’d
                             like to be a part of it, please join us. </h5>
-                        <h5><a href="#">See Latest jobs</a></h5>
+                            
+                        <h5><a href="#">See Latest jobs</a></h5></div><div>
                         <i class="bi bi-arrow-right-short"></i>
                     </div>
                 </div>

@@ -1,0 +1,28 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    
+}
+:root{
+    
+}
+.dropdown-menu-display{
+display: none;
+}
+
+.icon-header{
+    color:red; 
+    font-size: 1em; 
+    font-weight: 700;  
+    -webkit-text-stroke: 1px; 
+}
+img{
+    width: 100%;
+}
+.img{
+    max-width: 200px;
+}

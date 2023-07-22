@@ -87,3 +87,15 @@ div.container-sm {
     margin: 0 auto;
     font-size: 12px;
 }
+
+.line {
+    border-bottom: 1px solid #888;
+}
+
+.footer {
+    padding-top: 50px;
+}
+
+#bold {
+    font-weight: bold;
+}

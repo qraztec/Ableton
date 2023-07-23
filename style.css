@@ -100,3 +100,82 @@ div.container-sm {
     font-weight: bold;
 }
 
+.first-image-container {
+
+    width: 100%;
+    height: 70vw;
+    background: linear-gradient(to right, transparent 50%, #fbffa7 50%);
+    margin-top: 10vw;
+    margin-bottom: 10vw;
+    
+/*    margin-left: 50%;*/
+}
+
+/*.first-box {
+    width: 50%;
+    background-color: #fbffa7;
+    margin-left: 50%;
+    height: 55vw;
+
+}*/
+
+.second-box {
+    width: 50vw;
+    height: 70vw;
+    background-color: #b6ffc0;
+}
+
+/*.first-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10vw;
+    grid-auto-rows: 50vw;
+    grid-template-areas:
+    
+    "a  b "
+    "a  b ";
+    margin: 20px 0 0 20px;
+
+}*/
+
+/*.f-item1 {
+    grid-area: a;
+    
+
+
+}
+
+.f-item1 > .img {
+    height: 40vw;
+    width: 40vw;
+    margin: auto;
+    object-fit: cover;
+}
+
+.f-item2 {
+    
+    grid-area: b;
+}*/
+
+.first-image-container > .img1 {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    z-index: 2;
+    top: 20px;
+    height: 41vw;
+    width: 48vw;
+    margin-left: 8.3vw;
+    margin-top: 15vw;
+}
+
+.first-image-container > .img2 {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    z-index: 1;
+    height: 28vw;
+    width: 33vw;
+    left: 50px;
+    margin-top: 15vw;
+}

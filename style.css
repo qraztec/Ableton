@@ -119,10 +119,12 @@ div.container-sm {
 
 }*/
 
-.second-box {
-    width: 50vw;
-    height: 70vw;
-    background-color: #b6ffc0;
+.second-image-container {
+    width: 100%;
+    height: 80vw;
+    background: linear-gradient(to right, #b6ffc0 50%, transparent 50%);
+    margin-top: 10vw;
+    margin-bottom: 10vw;
 }
 
 /*.first-wrapper {
@@ -178,4 +180,66 @@ div.container-sm {
     width: 33vw;
     left: 50px;
     margin-top: 15vw;
+}
+
+/*.second-image-container > .img1 {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    z-index: 1;
+    height: 28vw;
+    width: 33vw;
+    left: 50px;
+    margin-top: 3vw;
+
+}
+
+.second-image-container > .img2 {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    z-index: 1;
+    height: 28vw;
+    width: 33vw;
+    left: 50px;
+    margin-top: 3vw;
+    margin-left: 3vw;
+    
+}*/
+
+.rel1 {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    z-index: 1;
+
+}
+
+.rel1 > .img1 {
+    height: 28vw;
+    width: 33vw;
+    margin-left: 3vw;
+    margin-bottom: 0vw;
+
+}
+
+.rel1 > .img2 {
+    height: 30vw;
+    width: 33vw;
+    margin-top: 20vw;
+    margin-left: 7vw;
+
+}
+
+.second-image-container > .img3 {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    z-index: 1;
+    height: 28vw;
+    width: 33vw;
+/*    left: 50px;*/
+    margin-left: 3vw;
+    margin-top: 0vw;
+    
 }

@@ -243,3 +243,19 @@ div.container-sm {
     margin-top: 0vw;
     
 }
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+@media (max-width: 900px) {
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 1fr);
+
+}
+}
+
